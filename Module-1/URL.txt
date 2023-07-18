@@ -1,0 +1,11 @@
+URL - Uniform Resource Locator
+- https://www.amazon.in
+
+Protocol(set of rules):-
+https/ http:
+Hyper text transfer protocol (secure)
+ip - Internet protocol
+
+Web Server
+- WWW - World Wide Web
+- Collection of websites

@@ -1,0 +1,32 @@
+Programme:-
+- set of instruction
+
+Programmer:-
+-Creator of the Programme
+
+Programming:-
+- Process of the creating programme 
+
+Types of programming language:-
+
+1. High level Programming
+- Near to human and far to machine
+
+    types:
+        1.POP - Procedure Oriented Programming
+            C, fortran, basic
+        2.OOP - Object Oriented Programming
+            c++, java, c#, f#, ruby, etc...
+        3.Logical Programming language  
+            prolog
+        4.Functional Programming
+            python, lisp etc..
+        5.Scripting language
+            javascript, php, node js
+
+2. Low level Programming
+- Near machine and far human
+
+    - Machine Language
+    - Assembly Language 
+    
