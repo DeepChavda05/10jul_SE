@@ -1,0 +1,22 @@
+Keyword:-
+- Reserve word in c programming
+
+Identifier:-
+- Name of the user define function ior variable
+    Rules:
+    - Can't use keyword
+    - Can use numeric, alphabet and underscore
+    - Can't use special character
+    - Can't start with the number
+
+Variable:-
+- Variable is like container where we can store the value
+
+Data type:-
+- It show the type of data(value).
+        Keyword         size        formate specifier
+    -   int(integer)    4byte       %d
+    -   char(character) 1byte       %c
+    -   float           4byte       %f
+    -   double          8byte       %lf
+    
