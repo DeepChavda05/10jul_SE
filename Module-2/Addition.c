@@ -3,7 +3,7 @@
 int main()
 {
     int a, b;
-    int ans;
+    char ans;
     printf("Enter the value of a and b: ");
     scanf("%d%d", &a, &b);
     // ans = a+b;
