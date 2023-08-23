@@ -7,5 +7,6 @@ int main()
     ptr = &a;
     ptr2 = &b;
     printf("Address of the a is: %d", ptr2);
+    printf("\nValue of the a is: %d", *ptr);
     return 0;
 }
