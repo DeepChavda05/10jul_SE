@@ -1,0 +1,28 @@
+Variable:-
+-> Variable is like a container where we can store the value.
+
+Types:
+1) Primitive Types - int, float , char etc..
+2) Non-Primitive types (reference type)- String, Array and so on...
+
+1.Local variable
+->Define inside the function
+ex.void data()
+{
+	int no;//local variable
+	//INSIDE THE that function only
+}
+------------------------------------------------------
+2.global variable
+->Define outside the all function
+ex.int no;//global variable
+//Everywhere
+void data(int no)
+{
+	//code
+}
+------------------------------------------------------
+3.Formal parameter
+->Define as parameter
+ex.void data(int no/*formal parameter*/)
+//inside the that( for ex.data()) function's body only
