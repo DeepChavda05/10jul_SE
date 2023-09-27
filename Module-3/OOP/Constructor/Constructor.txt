@@ -1,0 +1,10 @@
+Function name and class name are same that call constructor
+constructor no need to assign return type
+constructor has return type which has class
+constructor no need to call into the main function
+constructor call it self when we create object of class
+
+1.default constructor 
+2.Parameterize constructor 
+3.Copy constructor
+4.constructor in derived class
