@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body bgcolor="powderblue">
+    <fieldset>
+        <legend align="center">Login Form</legend>
+        <form action="https://www.goggle.com" method="post">
+            <center>
+                <label for="nm">Name: </label>
+                <input type="text" name="nm" id="" ><br><br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id=""><br><br>
+                <label for="phone">Phone no: </label>
+                <input type="tel" name="phone" placeholder="Enter your phone number"><br><br>
+                <label for="gender">Gender: </label>
+                male<input type="radio" name="gender" id="">
+                female<input type="radio" name="gender" id="">
+                other<input type="radio" name="gender" id=""><br><br>
+                <label for="hobby">Hobbies: </label>
+                Reading<input type="checkbox" name="hobby">
+                Traveling<input type="checkbox" name="hobby">
+                Cooking<input type="checkbox" name="hobby"><br><br>
+                <label for="age">Age: </label>
+                <select>
+                    <option value="0-17">0-17</option>
+                    <option value="18-25" selected>18-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="36-45">36-45</option>
+                    <option value="46-60">46-60</option>
+                </select><br><br>
+                <label for="address">Address</label>
+                <textarea name="address" id="" cols="20" rows="5"></textarea><br><br>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id=""><br><br>
+                <input type="submit" value="Log in">
+                <input type="reset">
+            </center>
+        </form>
+    </fieldset>
+</body>
+</html>
