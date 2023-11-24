@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        *{              /*Universal Selector*/
+            outline: 1px solid lime;
+        }
+        h1{             /*Element Selector*/
+            font-size: 50px;
+            transition: 1s;
+        }
+        p, span{        /*Group Selector*/
+            color: cornflowerblue;
+        }
+        .para{          /*Class Selector*/
+            text-decoration: underline;
+            text-decoration-color: brown;
+        }
+        #list{          /*Id Selector*/
+            list-style: none;
+        }
+        div:hover{      /*Pseudo class*/
+            background: #eee;
+        }
+        h1:hover{       /*Pseudo class*/
+            background: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Selector</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptates sapiente dicta in? Cupiditate non qui, ducimus laboriosam cum hic natus ipsum sit incidunt consectetur. Adipisci doloribus ipsa soluta facilis aperiam sunt quae officiis blanditiis quo quibusdam, facere voluptate commodi delectus aut accusantium assumenda, unde porro asperiores excepturi animi! Ex?
+        </p>
+        <span>This is span</span>
+        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, reprehenderit magni aliquid blanditiis officia iusto culpa perspiciatis, soluta perferendis possimus accusamus provident tempora cum corporis quae, veritatis libero molestiae! Sequi alias eveniet sed aliquid odio quaerat inventore officiis magnam omnis eum doloremque, modi itaque similique! Ad voluptatem quasi ullam impedit.</p>
+        <ul id="list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+        </ul>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+        </ul>
+    </div>
+</body>
+</html>
